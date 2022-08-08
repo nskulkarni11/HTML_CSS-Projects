@@ -1,0 +1,38 @@
+.heading{
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 90%;  
+}
+h4{
+  font-weight:800;  
+}
+.content{
+  display: flex;
+
+  
+}
+.content div:only-of-type{
+  width: 300px;
+  height: 250px;
+}
+.services{
+  margin-right: 200px;
+}
+.social-media{
+  margin-right: 200px;
+}
+.links{
+  text-decoration: none;
+  margin-right: 200px; 
+}
+.content a:only-of-type{
+  text-decoration: none;
+  color: #000;
+}
+footer hr{
+  margin-bottom: 30px;
+}
+footer{
+  text-align: center;
+  margin-bottom: 30px;
+}

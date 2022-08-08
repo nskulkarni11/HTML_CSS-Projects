@@ -1,0 +1,21 @@
+*{
+    background-color:rgba(210, 214, 214, 0.874)
+}
+.btn span:first-of-type{
+    background-color: rgba(16, 69, 106, 0.929);
+    padding: 10px 20px;
+    /* border: 2px solid rgba(16, 83, 131, 0.929); */
+    border-radius: 15px;
+    color: #fff;
+    box-shadow: 1px 8px 20px 1px rgb(25, 14, 14);
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 40px;
+
+}
+.btn .btn-text-two{
+    display: none;
+}
+.btn{
+    border-style: none;
+}
