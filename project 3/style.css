@@ -1,0 +1,9 @@
+*{
+    background-color: #373232;
+}
+.main .navbar{
+    display:flex;
+    flex-wrap: nowrap;
+}
+
+    
