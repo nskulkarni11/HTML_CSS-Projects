@@ -1,0 +1,88 @@
+body{
+    margin: 0 5vh;
+    font-family: "Roboto", sans-serif;
+    background-image: url(../images/backcover.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 60%
+}
+.main-div{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.main-div nav button{
+    margin-top: 0;
+}
+/* Navbar____________________________________ */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items{
+    display: flex;
+    gap: 7vh;
+}
+.nav-item{
+    font-size: 1rem;
+    color: #222d82;
+}
+.signin-btn{
+    margin-right: 15vh;
+    padding: 0 30px;
+    font-size: 1rem;
+    border-radius: 50px;
+    font-weight: bolder;
+    color: aliceblue;
+    border-style: none;
+    background:linear-gradient(to right,rgb(196, 68, 224),rgb(231, 164, 235));
+
+}
+/* intro-section______________________________ */
+.intro-section{
+    display: flex;
+    justify-content: space-between;
+}
+/* Left section_______________________________ */
+.left-section{
+    margin-top: 10vh;
+}
+.left-section h1{
+    font-weight: 800;
+    font-size: 5rem;
+    color: #222d82;
+}
+.left-section h4{
+    width:400px;
+    font-weight: 400;
+    color:#551371;
+    font-size: 1.5rem;
+}
+.learn-more-btn{
+    padding: 15px 40px;
+    font-size: 1.25rem;
+    margin-top: 5vh;
+    border-radius: 50px;
+    font-weight: bolder;
+    color: aliceblue;
+    border-style: none;
+    background:linear-gradient(to right,rgb(196, 68, 224),rgb(231, 164, 235));
+}
+/* imgs-div __________________________________ */
+.imgs-div{
+    display: flex;
+    justify-content: space-around;
+}
+[alt="intro-img"] {
+    width: 120vh;
+}
+[alt^="vector"]{
+    position: relative;
+}
+[alt="vector-img"]{
+    top: 15vh;
+    left: 13.5vh;
+}
+[alt="vector-dot"]{
+    top: 8vh;
+    left: 8vh;
+}
